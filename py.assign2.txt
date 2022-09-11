@@ -1,0 +1,18 @@
+1)pip list: it will list installed packages on my created environment
+
+2)deactivate : will deactivate access to environment(\sources\activate) will do the activation again
+
+3)pip is related to python2 while pip3 is realted to python3 and later versions, pip is python packages manager
+
+4)stand on the directory where virtual environment is and type deactivate
+
+5)started to download django 2.2.4 packages to venv
+
+6)pip list:shows all installed packages while pip freeze: shows packages YOU installed via pop or pipenv& able to extract to
+requirements.txt
+
+7)it will show installed packages 
+
+8)removes django package from environment
+
+9)shows packages list in venv after removing django
