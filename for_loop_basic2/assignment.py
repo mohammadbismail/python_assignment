@@ -149,20 +149,20 @@
 #   output: same list reversed
 
 
-lst = ["ahmad", 2, 3, "alo", 5, 6, 7, 8, 9]
+# lst = ["ahmad", 2, 3, "alo", 5, 6, 7, 8, 9]
 
 
-def reverse_list(list):
-    #    solution(1) not working properly
-    # temp = None
-    # for i in range(len(list) / 2):
-    #     temp = list[i]
-    #     list[len(list) - 1 - i] = list[i]
-    #     list[i] = temp
+# def reverse_list(list):
+#     #    solution(1) not working properly
+#     # temp = None
+#     # for i in range(len(list) / 2):
+#     #     temp = list[i]
+#     #     list[len(list) - 1 - i] = list[i]
+#     #     list[i] = temp
 
-    #    solution(2) list = list[::-1] working using list slice (step size going backwards)
-    #    solution(3) list.reverse()
-    return list
+#     #    solution(2) list = list[::-1] working using list slice (step size going backwards)
+#     #    solution(3) list.reverse()
+#     return list
 
 
-print(reverse_list(lst))
+# print(reverse_list(lst))
