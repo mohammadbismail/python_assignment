@@ -24,14 +24,14 @@ class User:
     def __init__(self, myName, myEmail):
         self.name = myName
         self.email = myEmail
-        self.balance = BankAccount(int_rate=0, myBalance=0)
+        self.balance = BankAccount(int_rate=0.02, myBalance=0)
 
     def make_deposit(self, myAmount):
         self.balance.deposit(myAmount)
         return self
 
     def make_withdraw(self, myAmount):
-        self.balance.deposit(myAmount)
+        self.balance.withdraw(myAmount)
         return self
 
     def display_balance(self):
@@ -41,4 +41,5 @@ class User:
 
 ahmad = User("Ahmad", "ahmad@gmail.com")
 
-print(ahmad.make_deposit(500))
+
+ahmad.make_deposit(100).display_balance()
