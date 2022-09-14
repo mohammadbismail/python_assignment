@@ -87,8 +87,9 @@ dojo = {
 
 def printInfo(dojo):
     for key in dojo.keys():
-        for val in 
-        print()
+        print(key)
+        for val in dojo.values():
+            print(len(val), val)
 
 
 print(printInfo(dojo))
