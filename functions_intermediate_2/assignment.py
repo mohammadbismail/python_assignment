@@ -45,8 +45,9 @@
 #     #     for key, val in students[i].items():
 #     #         print(key, "-", val)
 
-#     # for i in students:
-#     #     print("first_name", "-", i["first_name"], ",", "last_name", "-", i["last_name"])
+#     for i in students:
+#         print("first_name -", i["first_name"], ", last_name", i["last_name"])
+
 
 # iterateDictionary(students)
 
@@ -87,28 +88,29 @@ dojo = {
 
 def printInfo(dojo):
     for key in dojo.keys():
-        print(key)
-        for val in dojo.values():
-            print(len(val), val)
+        print(len(dojo[key]), key)
+        for i in range(len(dojo[key])):
+            print(dojo[key][i])
 
 
-print(printInfo(dojo))
-# # output:
-# 7 LOCATIONS
-# San Jose
-# Seattle
-# Dallas
-# Chicago
-# Tulsa
-# DC
-# Burbank
+printInfo(dojo)
 
-# 8 INSTRUCTORS
-# Michael
-# Amy
-# Eduardo
-# Josh
-# Graham
-# Patrick
-# Minh
-# Devon
+# # # output:
+# # 7 LOCATIONS
+# # San Jose
+# # Seattle
+# # Dallas
+# # Chicago
+# # Tulsa
+# # DC
+# # Burbank
+
+# # 8 INSTRUCTORS
+# # Michael
+# # Amy
+# # Eduardo
+# # Josh
+# # Graham
+# # Patrick
+# # Minh
+# # Devon
